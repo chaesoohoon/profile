@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     result: '메인 캐릭터 3종, 쇼핑백·테이크아웃 컵·스티커·스낵 패키지 등 총 12종의 리테일 비주얼 시스템을 구축하고 향후 숏폼 애니메이션으로 확장 가능한 기반을 마련했습니다.',
     tools: ['Adobe Illustrator', 'Adobe Photoshop', 'Midjourney', 'Figma'],
     keyDeliverables: ['브랜드 로고마크 및 워드마크', '캐릭터 턴어라운드 가이드', '리테일 패키지 5종 목업', '굿즈 및 문구류 그래픽 시스템'],
-    heroImage: '/src/assets/images/project_monster_convenience_1793930284296.jpg',
+    heroImage: '/images/project_monster_convenience.jpg',
     accentColor: '#345BEB'
   },
   {
@@ -69,7 +69,7 @@ export const PROJECTS: Project[] = [
     result: '총 24페이지 분량의 동화 아트워크 컨셉북 구성 및 페이퍼 컷 스타일 북커버·내지 스프레드 8종 완성. 시각적 밀도와 문학적 여운을 동시에 전달했습니다.',
     tools: ['Midjourney v6', 'Adobe InDesign', 'Adobe Photoshop', 'Lightroom'],
     keyDeliverables: ['하드커버 북커버 디자인', '본문 스프레드 8세트', '페이퍼 컷 텍스처 스타일가이드', '전시용 대형 아트 프린트'],
-    heroImage: '/src/assets/images/project_time_shop_1793930285069.jpg',
+    heroImage: '/images/project_time_shop.jpg',
     accentColor: '#2B4CBA'
   },
   {
@@ -89,7 +89,7 @@ export const PROJECTS: Project[] = [
     result: '총 45초 길이의 고화질 숏폼 영상 제작 완성. 동일 파이프라인을 수강생 교육 교안 및 워크숍 실습 템플릿으로 정립하여 교육 현장에 이식했습니다.',
     tools: ['Midjourney', 'Runway Gen-3 / Kling', 'ElevenLabs', 'Adobe Premiere Pro'],
     keyDeliverables: ['45초 숏폼 완제품 (9:16 세로형)', '캐릭터 일관성 시드 데이터시트', '스토리보드 컷리스트', '오디오 효과음 & BGM 믹스'],
-    heroImage: '/src/assets/images/project_tired_panda_1793930286290.jpg',
+    heroImage: '/images/project_tired_panda.jpg',
     accentColor: '#17191C'
   },
   {
@@ -109,7 +109,7 @@ export const PROJECTS: Project[] = [
     result: '과정 수강생 100% 숏폼 프로젝트 완주 및 최종 상영회 개최. 수강생 만족도 9.6/10 달성 및 우수 수료작 다수 배출.',
     tools: ['Figma (기획)', 'Midjourney / DALL-E', 'Runway / Pika', 'Premiere Pro'],
     keyDeliverables: ['4주/8주 단계별 강의 커리큘럼', '학생용 실습 가이드북 PDF', '숏폼 템플릿 프로젝트 파일', '영상 피드백 루브릭 표'],
-    heroImage: '/src/assets/images/hero_editorial_workspace_1793930283847.jpg',
+    heroImage: '/images/hero_editorial_workspace.jpg',
     accentColor: '#345BEB'
   },
   {
@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
     result: '메인 메인 포스터 2종, 옥외 대형 배너 3종, 스크린 그래픽 템플릿 4종 완성. 인쇄 품질 감리와 안전여백 가이드를 체계화했습니다.',
     tools: ['Adobe Illustrator', 'Adobe InDesign', 'Photoshop'],
     keyDeliverables: ['메인 A1 포스터 2종', '가로형 대형 외벽 배너 디자인', '가로등 배너 및 티켓 그래픽', '공간 사이니지 시스템'],
-    heroImage: '/src/assets/images/project_event_poster_1793930286583.jpg',
+    heroImage: '/images/project_event_poster.jpg',
     accentColor: '#345BEB'
   },
   {
@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
     result: '전기 대비 지원 문의율 상승 및 과정 조기 마감에 기여. 지속 재사용 가능한 분기별 템플릿 자산을 기관에 납품했습니다.',
     tools: ['Adobe Illustrator', 'After Effects', 'Photoshop', 'Notion'],
     keyDeliverables: ['SNS 홍보 카드뉴스 10장 세트', '15초 모션 프로모션 영상', '인쇄용 A3 모집 포스터', '온라인 상세페이지 배너'],
-    heroImage: '/src/assets/images/hero_editorial_workspace_1793930283847.jpg',
+    heroImage: '/images/hero_editorial_workspace.jpg',
     accentColor: '#2B4CBA'
   }
 ];

@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles, Layers, ShieldCheck } from 'lucide-react';
+import SafeImage from './SafeImage';
 
 interface HeroProps {
   onExploreWorks: () => void;
@@ -88,10 +89,11 @@ export default function Hero({ onExploreWorks, onContactClick }: HeroProps) {
           {/* Right Column: Visual Frame */}
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] w-full overflow-hidden bg-neutral-200 border border-[#17191C]/15 shadow-sm group">
-              <img
-                src="/src/assets/images/hero_editorial_workspace_1793930283847.jpg"
+              <SafeImage
+                src="/images/hero_editorial_workspace.jpg"
+                fallbackSrc="/public/images/hero_editorial_workspace.jpg"
                 alt="채수훈 디자이너의 에디토리얼 워크스페이스 및 타이포그래피 스펙"
-                referrerPolicy="no-referrer"
+                fallbackLabel="CHAE SOOHOON Editorial Studio"
                 loading="eager"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

@@ -10,11 +10,11 @@ export default function Header({ onContactClick, onGuideClick }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { label: '3D 월드', enLabel: '3D World', href: '#world-3d' },
     { label: '소개', enLabel: 'About', href: '#about' },
     { label: '작업', enLabel: 'Works', href: '#works' },
     { label: 'AI 워크플로', enLabel: 'AI Lab', href: '#ai-lab' },
     { label: '교육', enLabel: 'Education', href: '#education' },
-    { label: '연락처', enLabel: 'Contact', href: '#contact' },
   ];
 
   return (
