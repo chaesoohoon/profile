@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Pretendard", "Noto Sans KR", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    color: #17191C;
+    background-color: #F6F5F1;
+  }
+
+  /* Editorial typography refinements */
+  h1, h2, h3, h4, .font-display {
+    font-family: "Plus Jakarta Sans", "Pretendard", "Noto Sans KR", sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
